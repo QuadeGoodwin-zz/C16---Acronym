@@ -1,0 +1,6 @@
+function acronymMaker (str) {
+  var c = str.split(" ");
+  return(c[0].charAt(0).toUpperCase()+c[1].charAt(0).toUpperCase()+c[2].charAt(0).toUpperCase());
+}
+output = acronymMaker("ro T p");
+console.log(output);
